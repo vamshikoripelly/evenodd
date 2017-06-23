@@ -8,20 +8,21 @@ public class evenodd {
 		System.out.println("Even & Odds between 1 and");
 		int t=Integer.parseInt(j.nextLine());
 		j.close();
-		System.out.println("All evens :");
+		
 		for(n=1;n<=t;n++)
 		{
 			if(n%2==0)
 			{
-				System.out.print(" "+n);
+				System.out.print(“even: "+n);
 			}
 		}
-		System.out.println("\n All Odds :");
+		
+
 		for(n=1;n<=t;n++)
 		{
 			if(n%2!=0)
 			{
-				System.out.print(" "+n);
+				System.out.print(“odd: "+n);
 			}
 		}
 	}
