@@ -15,12 +15,7 @@ public class evenodd {
 			{
 				System.out.print(“even: "+n);
 			}
-		}
-		
-
-		for(n=1;n<=t;n++)
-		{
-			if(n%2!=0)
+		       else
 			{
 				System.out.print(“odd: "+n);
 			}
